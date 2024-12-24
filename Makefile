@@ -19,12 +19,12 @@ SRC_DIR = src
 OBJ_DIR = obj
 LIB_DIR = OctoLIB/
 
-FT = // Add function and directory here (Be sure to put it in a "src" directory)
+FT = // Add functions files with their path here (Be sure to put it in a "src" directory)
 
 SOURCES = $(addprefix $(SRC_DIR)/, $(addsuffix .c, $(FT)))
 OBJS = $(addprefix $(OBJ_DIR)/, $(addsuffix .o, $(FT)))
 
-LIB = $(LIB_DIR)/libft.a
+LIB = $(LIB_DIR)libft.a
 
 all: $(NAME)
 
